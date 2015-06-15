@@ -1,5 +1,0 @@
-<!-- Recipe Earl Grey Tea -->
-<recipe name="EarlGreyTea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="180" craft_exp_gain="4" learn_exp_gain="20" >
-    <ingredient name="goldenrod" count="2"/>
-    <ingredient name="bottledWater" count="1"/>
-</recipe>

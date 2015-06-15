@@ -1,0 +1,14 @@
+<!-- Block teaplant -->
+<block id="1410" name="teaplant">
+    <property name="Class" value="CropsGrown" />
+    <property name="Material" value="plants" />
+    <property name="Shape" value="BillboardPlant" />
+    <property name="Mesh" value="cutoutmoveable" />
+    <property name="Texture" value="295" />
+    <property name="Collide" value="melee" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="CustomIcon" value="yuccaFibers" />
+    <property name="CustomIconTint" value="456789" />
+    <drop event="Destroy" name="tealeaves" count="3" prob="0.8" />
+    <drop event="Harvest" name="tealeaves" count="4" />
+</block>

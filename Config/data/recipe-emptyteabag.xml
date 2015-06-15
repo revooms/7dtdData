@@ -1,0 +1,5 @@
+<!-- Recipe Empty Teabag -->
+<recipe name="emptyTeabag" count="8" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="120" craft_exp_gain="4" learn_exp_gain="20" >
+    <ingredient name="cloth" count="1"/>
+    <ingredient name="bottledWater" count="1"/>
+</recipe>

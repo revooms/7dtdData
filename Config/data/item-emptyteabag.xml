@@ -1,0 +1,17 @@
+<!-- Item Empty Teabag -->
+<item id="812" name="emptyTeabag">
+    <property name="Meshfile" value="Items/Misc/parcel" />
+    <property name="Material" value="cloth" />
+    <property name="HoldType" value="14" />
+    <property name="Stacknumber" value="64" />
+    <property name="RepairTime" value="1" />
+    <property name="RepairAmount" value="1" />
+    <property name="CustomIcon" value="chaulkboard"/>
+    <property name="CustomIconTint" value="575757"/>
+    <property class="Preview">
+        <property name="Zoom" value="28" />
+        <property name="Pos" value="0,-0.05" />
+        <property name="Rot" value="90,45,0" />
+    </property>
+    <property name="Group" value="Food/Cooking" />
+</item>

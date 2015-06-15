@@ -1,0 +1,19 @@
+<!-- Block teaplantSprout -->
+<block id="1411" name="teaplantSprout">
+    <property name="Class" value="PlantGrowing" />
+    <property name="Material" value="plants" />
+    <property name="Shape" value="BillboardPlant" />
+    <property name="Mesh" value="cutoutmoveable" />
+    <property name="Texture" value="293" />
+    <property name="Collide" value="melee" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="CustomIcon" value="blueBerrySprout" />
+    <property name="CustomIconTint" value="456789" />
+    <drop event="Destroy" count="0" />
+    <property class="PlantGrowing">
+        <property name="Next" value="blueberryYoung" />
+        <property name="GrowthRate" value="120" />
+        <property name="FertileLevel" value="5" />
+        <property name="IsRandom" value="false" />
+    </property>
+</block>
