@@ -1594,7 +1594,7 @@
         <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
         <property name="Material" value="glass" />
         <property name="HoldType" value="3" />
-        <property name="Stacknumber" value="15" />
+        <property name="Stacknumber" value="32" />
         <property name="Weight" value="12" />
         <property name="Group" value="Food/Cooking" />
         <property class="Action1">
