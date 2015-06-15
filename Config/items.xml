@@ -15351,7 +15351,7 @@
         <property name="Meshfile" value="Items/Food/coffeePrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="3" />
-        <property name="Stacknumber" value="15" />
+        <property name="Stacknumber" value="32" />
         <property name="CustomIcon" value="coffee" />
         <property name="CustomIconTint" value="456789" />
         <property name="Group" value="Food/Cooking" />
