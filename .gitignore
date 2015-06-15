@@ -1,5 +1,6 @@
 Bundles
 Prefabs
 Worlds
-
-Config/recipes - Kopie.xml
+Config/entityclasses-mod*.xml
+Config/item-*.xml
+Config/recipe-*.xml
