@@ -10166,10 +10166,77 @@
         <property name="CustomIconTint" value="456789" />
         <drop event="Destroy" count="0" />
         <property class="PlantGrowing">
-            <property name="Next" value="blueberryYoung" />
+            <property name="Next" value="teaplant" />
             <property name="GrowthRate" value="120" />
-            <property name="FertileLevel" value="5" />
+            <property name="FertileLevel" value="3" />
             <property name="IsRandom" value="false" />
         </property>
     </block>
+
+    <block id="1420" name="plantedOrangeTree1m">
+        <property name="Class" value="ModelTree" />
+        <property name="CustomIcon" value="Maple6m" />
+        <property name="CustomIconTint" value="ffff00" />
+        <property name="Material" value="wood" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Texture" value="116" />
+        <property name="Tag" value="TreeTrunk" />
+        <property name="Collide" value="melee" />
+        <property name="BigDecorationRadius" value="1" />
+        <property name="Model" value="Entities/Trees/Prefabs/MountainPine1mPrefab" />
+        <property name="UpwardsCount" value="0" />
+        <property name="IsPlant" value="true" />
+        <property name="ParticleOnDeath" value="treeGib_burnt" />
+        <property class="PlantGrowing">
+            <property name="Next" value="plantedOrangeTree6m" />
+            <property name="GrowthRate" value="60" />
+            <property name="FertileLevel" value="1" />
+            <property name="IsRandom" value="false" />
+        </property>
+        <drop event="Destroy" name="pineSeed" count="1" prob="1" />
+    </block>
+    <block id="1421" name="plantedOrangeTree6m">
+        <property name="Class" value="ModelTree" />
+        <property name="CustomIcon" value="Maple14m" />
+        <property name="CustomIconTint" value="ffff00" />
+        <property name="Material" value="wood" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Texture" value="116" />
+        <property name="Tag" value="TreeTrunk" />
+        <property name="BigDecorationRadius" value="1" />
+        <property name="Model" value="Entities/Trees/Prefabs/MountainPine6m" />
+        <property name="UpwardsCount" value="3" />
+        <property name="IsPlant" value="true" />
+        <property name="ParticleOnDeath" value="treeGib_burnt" />
+        <property name="ModelOffset" value="0,-1.2,0" />
+        <property class="PlantGrowing">
+            <property name="Next" value="orangeTree" />
+            <property name="GrowthRate" value="60" />
+            <property name="FertileLevel" value="1" />
+            <property name="IsRandom" value="false" />
+        </property>
+        <drop event="Destroy" name="trunkPine" count="2" prob="1" />
+        <drop event="Destroy" name="orangeTreeSeed" count="1,2" prob="1" />
+        <drop event="Destroy" name="orange" count="1" prob=".6" />
+    </block>
+    <!-- Block orangeTree15m -->
+    <block id="1422" name="orangeTree">
+        <property name="Class" value="ModelTree" />
+        <property name="CustomIcon" value="Maple17m" />
+        <property name="CustomIconTint" value="ffff00" />
+        <property name="Material" value="wood+wood" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Texture" value="116" />
+        <property name="Tag" value="TreeTrunk" />
+        <property name="BigDecorationRadius" value="3" />
+        <property name="Model" value="Entities/Trees/Maple33Prefab" />
+        <property name="UpwardsCount" value="7" />
+        <property name="IsPlant" value="true" />
+        <property name="ParticleOnDeath" value="treeGib_burnt" />
+        <property name="ModelOffset" value="0,-1.2,0" />
+        <drop event="Destroy" name="trunkPine" count="6" prob="1" />
+        <drop event="Destroy" name="orangeTreeSeed" count="1,2" prob=".8" />
+        <drop event="Destroy" name="orange" count="4" prob=".9" />
+    </block>
+
 </blocks>
