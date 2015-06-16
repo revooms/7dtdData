@@ -7777,8 +7777,8 @@
         <property name="Material" value="wood" />
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="16" />
-        <property name="Weight" value="1" />
-        <property name="Group" value="Food/Cooking" />
+        <property name="Weight" value="4" />
+        <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="23" />
             <property name="Pos" value="0.18,-0.15" />
@@ -7794,8 +7794,8 @@
         <property name="Material" value="wood" />
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="16" />
-        <property name="Weight" value="1" />
-        <property name="Group" value="Food/Cooking" />
+        <property name="Weight" value="4" />
+        <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="23" />
             <property name="Pos" value="0.18,-0.15" />
@@ -7811,8 +7811,8 @@
         <property name="Material" value="wood" />
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="16" />
-        <property name="Weight" value="1" />
-        <property name="Group" value="Food/Cooking" />
+        <property name="Weight" value="4" />
+        <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="23" />
             <property name="Pos" value="0.18,-0.15" />
@@ -7828,8 +7828,8 @@
         <property name="Material" value="wood" />
         <property name="HoldType" value="3" />
         <property name="Stacknumber" value="16" />
-        <property name="Weight" value="1" />
-        <property name="Group" value="Food/Cooking" />
+        <property name="Weight" value="4" />
+        <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="23" />
             <property name="Pos" value="0.18,-0.15" />
