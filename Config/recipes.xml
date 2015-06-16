@@ -1842,7 +1842,7 @@
     <ingredient name="bottledWater" count="1"/>
   </recipe>
   <!-- Recipe teaplantSeed -->
-  <recipe name="teaplantSeed" count="2" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="teaplantSeed" count="2" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="tealeaves" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe Empty Teabag -->
@@ -1851,43 +1851,43 @@
     <ingredient name="bottledWater" count="1"/>
   </recipe>
   <!-- Recipe orangeTreeSeed -->
-  <recipe name="orangeTreeSeed" count="3" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="orangeTreeSeed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="orange" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe ammoBox9mm -->
-  <recipe name="ammoBox9mm" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="ammoBox9mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="9mmBullet" count="64" grid="0, 0"/>
   </recipe>
   <!-- Recipe 9mmBullet -->
-  <recipe name="9mmBullet" count="64" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="9mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ammoBox9mm" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe ammoBox44Mag -->
-  <recipe name="ammoBox44Mag" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="ammoBox44Mag" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="44MagBullet" count="64" grid="0, 0"/>
   </recipe>
   <!-- Recipe 44MagBullet -->
-  <recipe name="44MagBullet" count="64" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="44MagBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ammoBox44Mag" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe ammoBox10mm -->
-  <recipe name="ammoBox10mm" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="ammoBox10mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="10mmBullet" count="64" grid="0, 0"/>
   </recipe>
   <!-- Recipe 10mmBullet -->
-  <recipe name="10mmBullet" count="64" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="10mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ammoBox10mm" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe ammoBox762mm -->
-  <recipe name="ammoBox762mm" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="ammoBox762mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="762mmBullet" count="64" grid="0, 0"/>
   </recipe>
   <!-- Recipe 762mmBullet -->
-  <recipe name="762mmBullet" count="64" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="762mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ammoBox762mm" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe munitionsBox -->
-  <recipe name="munitionsBox" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+  <recipe name="munitionsBox" count="1" scrapable="False" craft_time="120" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ingotIron" count="1" grid="-2, -1"/>
     <ingredient name="ingotIron" count="1" grid="-1, -1"/>
     <ingredient name="ingotIron" count="1" grid="0, -1"/>
