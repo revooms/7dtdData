@@ -4,3 +4,14 @@ Worlds
 Config/entityclasses-mod*.xml
 Config/item-*.xml
 Config/recipe-*.xml
+Config/biomes.xml
+Config/buffs.xml
+Config/entitygroups.xml
+Config/groups.xml
+Config/loot.xml
+Config/materials.xml
+Config/misc.xml
+Config/qualityinfo.xml
+Config/rwgmixer.xml
+Config/sounds.xml
+Config/spawning.xml
