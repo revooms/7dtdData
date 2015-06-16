@@ -1886,4 +1886,19 @@
   <recipe name="762mmBullet" count="64" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="ammoBox762mm" count="1" grid="0, 0"/>
   </recipe>
+  <!-- Recipe munitionsBox -->
+  <recipe name="munitionsBox" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <ingredient name="ingotIron" count="1" grid="-2, -1"/>
+    <ingredient name="ingotIron" count="1" grid="-1, -1"/>
+    <ingredient name="ingotIron" count="1" grid="0, -1"/>
+    <ingredient name="ingotIron" count="1" grid="1, -1"/>
+    <ingredient name="ingotIron" count="1" grid="2, -1"/>
+    <ingredient name="ingotIron" count="1" grid="-2, 0"/>
+    <ingredient name="ingotIron" count="1" grid="2, 0"/>
+    <ingredient name="ingotIron" count="1" grid="-2, 1"/>
+    <ingredient name="ingotIron" count="1" grid="-1, 1"/>
+    <ingredient name="ingotIron" count="1" grid="0, 1"/>
+    <ingredient name="ingotIron" count="1" grid="1, 1"/>
+    <ingredient name="ingotIron" count="1" grid="2, 1"/>
+  </recipe>
 </recipes>
