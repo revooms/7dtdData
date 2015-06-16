@@ -7770,4 +7770,73 @@
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
+
+    <!-- Item ammoBox9mm -->
+    <item id="830" name="ammoBox9mm">
+        <property name="Meshfile" value="Items/Misc/parcel" />
+        <property name="Material" value="wood" />
+        <property name="HoldType" value="3" />
+        <property name="Stacknumber" value="16" />
+        <property name="Weight" value="1" />
+        <property name="Group" value="Food/Cooking" />
+        <property class="Preview">
+            <property name="Zoom" value="23" />
+            <property name="Pos" value="0.18,-0.15" />
+            <property name="Rot" value="0,-45,0" />
+        </property>
+        <property name="CustomIcon" value="storageAmmo"/>
+        <property name="CustomIconTint" value="17a000"/>
+    </item>
+
+    <!-- Item ammoBox10mm -->
+    <item id="831" name="ammoBox10mm">
+        <property name="Meshfile" value="Items/Misc/parcel" />
+        <property name="Material" value="wood" />
+        <property name="HoldType" value="3" />
+        <property name="Stacknumber" value="16" />
+        <property name="Weight" value="1" />
+        <property name="Group" value="Food/Cooking" />
+        <property class="Preview">
+            <property name="Zoom" value="23" />
+            <property name="Pos" value="0.18,-0.15" />
+            <property name="Rot" value="0,-45,0" />
+        </property>
+        <property name="CustomIcon" value="storageAmmo"/>
+        <property name="CustomIconTint" value="17a000"/>
+    </item>
+
+    <!-- Item ammoBox44Mag -->
+    <item id="832" name="ammoBox44Mag">
+        <property name="Meshfile" value="Items/Misc/parcel" />
+        <property name="Material" value="wood" />
+        <property name="HoldType" value="3" />
+        <property name="Stacknumber" value="16" />
+        <property name="Weight" value="1" />
+        <property name="Group" value="Food/Cooking" />
+        <property class="Preview">
+            <property name="Zoom" value="23" />
+            <property name="Pos" value="0.18,-0.15" />
+            <property name="Rot" value="0,-45,0" />
+        </property>
+        <property name="CustomIcon" value="storageAmmo"/>
+        <property name="CustomIconTint" value="17a000"/>
+    </item>
+
+    <!-- Item ammoBox762mm -->
+    <item id="833" name="ammoBox762mm">
+        <property name="Meshfile" value="Items/Misc/parcel" />
+        <property name="Material" value="wood" />
+        <property name="HoldType" value="3" />
+        <property name="Stacknumber" value="16" />
+        <property name="Weight" value="1" />
+        <property name="Group" value="Food/Cooking" />
+        <property class="Preview">
+            <property name="Zoom" value="23" />
+            <property name="Pos" value="0.18,-0.15" />
+            <property name="Rot" value="0,-45,0" />
+        </property>
+        <property name="CustomIcon" value="storageAmmo"/>
+        <property name="CustomIconTint" value="17a000"/>
+    </item>
+
 </items>
