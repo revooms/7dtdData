@@ -10141,6 +10141,7 @@
         <property name="IsTerrainDecoration" value="true" />
         <drop event="Destroy" name="coal" count="1" prob="1" />
     </block>
+    <!-- Block teaplant -->
     <block id="1410" name="teaplant">
         <property name="Class" value="CropsGrown" />
         <property name="Material" value="plants" />
@@ -10154,6 +10155,8 @@
         <drop event="Destroy" name="tealeaves" count="3" prob="0.8" />
         <drop event="Harvest" name="tealeaves" count="4" />
     </block>
+
+    <!-- Block teaplantSprout -->
     <block id="1411" name="teaplantSprout">
         <property name="Class" value="PlantGrowing" />
         <property name="Material" value="plants" />
@@ -10173,6 +10176,7 @@
         </property>
     </block>
 
+    <!-- Block plantedOrangeTree1m -->
     <block id="1420" name="plantedOrangeTree1m">
         <property name="Class" value="ModelTree" />
         <property name="CustomIcon" value="Maple6m" />
@@ -10195,6 +10199,8 @@
         </property>
         <drop event="Destroy" name="pineSeed" count="1" prob="1" />
     </block>
+
+    <!-- Block plantedOrangeTree1m -->
     <block id="1421" name="plantedOrangeTree6m">
         <property name="Class" value="ModelTree" />
         <property name="CustomIcon" value="Maple14m" />
@@ -10238,5 +10244,4 @@
         <drop event="Destroy" name="orangeTreeSeed" count="1,2" prob=".8" />
         <drop event="Destroy" name="orange" count="4" prob=".9" />
     </block>
-
 </blocks>
