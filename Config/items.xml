@@ -7865,4 +7865,20 @@
         <property name="CustomIconTint" value="17a000"/>
     </item>
 
+    <!-- Item smallGrindstone -->
+    <item id="840" name="Small Grindstone">
+        <property name="Meshfile" value="Items/Misc/parcel" />
+        <property name="Stacknumber" value="1" />
+        <property name="RepairTime" value="0.5" />
+        <property name="RepairAmount" value="10" />
+        <property name="Group" value="Resources" />
+        <property class="Preview">
+            <property name="Zoom" value="28" />
+            <property name="Pos" value="0,-0.05" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+        <property name="CustomIcon" value="storageAmmo"/>
+        <property name="CustomIconTint" value="17a000"/>
+    </item>
+
 </items>
