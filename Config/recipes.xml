@@ -1835,24 +1835,24 @@
     <ingredient name="shortMetalPipe" count="1" grid="0, 2"/>
   </recipe>
   <!-- Recipe Earl Grey Tea -->
-  <recipe name="earlGreyTea" count="4" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
-    <ingredient name="emptyTeabag" count="1"/>
-    <ingredient name="tealeaves" count="2"/>
-    <ingredient name="orange" count="1"/>
+  <recipe name="Earl Grey Tea" count="4" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
+    <ingredient name="Empty Teabag" count="1"/>
+    <ingredient name="Tealeaves" count="2"/>
+    <ingredient name="Orange" count="1"/>
     <ingredient name="bottledWater" count="1"/>
   </recipe>
   <!-- Recipe teaplantSeed -->
-  <recipe name="teaplantSeed" count="2" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="tealeaves" count="1" grid="0, 0"/>
+  <recipe name="Teaplant Seed" count="2" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+    <ingredient name="Tealeaves" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe Empty Teabag -->
-  <recipe name="emptyTeabag" count="8" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="120" craft_exp_gain="4" learn_exp_gain="20" >
+  <recipe name="Empty Teabag" count="8" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="120" craft_exp_gain="4" learn_exp_gain="20" >
     <ingredient name="cloth" count="1"/>
     <ingredient name="bottledWater" count="1"/>
   </recipe>
   <!-- Recipe orangeTreeSeed -->
-  <recipe name="orangeTreeSeed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="orange" count="1" grid="0, 0"/>
+  <recipe name="Orange Tree Seed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+    <ingredient name="Orange" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe ammoBox9mm -->
   <recipe name="ammoBox9mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1902,9 +1902,9 @@
     <ingredient name="forgedIron" count="1" grid="2, 1"/>
   </recipe>
   <!-- Recipe Blueberry Earl Grey Tea -->
-  <recipe name="blueberryEarlGreyTea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
+  <recipe name="Blueberry Earl Grey Tea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
     <ingredient name="blueberry" count="2"/>
-    <ingredient name="earlGreyTea" count="1"/>
+    <ingredient name="Earl Grey Tea" count="1"/>
   </recipe>
   <!-- Recipe halfBlockConcrete -->
   <recipe name="halfBlockConcrete" count="4" scrapable="False" craft_time="20" craft_exp_gain="2" learn_exp_gain="20" >

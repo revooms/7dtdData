@@ -7639,7 +7639,7 @@
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    <item id="800" name="earlGreyTea">
+    <item id="800" name="Earl Grey Tea">
         <property name="Meshfile" value="Items/Food/coffeePrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="3" />
@@ -7665,7 +7665,7 @@
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    <item id="801" name="blueberryEarlGreyTea">
+    <item id="801" name="Blueberry Earl Grey Tea">
         <property name="Meshfile" value="Items/Food/coffeePrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="3" />
@@ -7691,7 +7691,7 @@
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    <item id="810" name="tealeaves">
+    <item id="810" name="Tealeaves">
         <property name="Meshfile" value="Items/Food/fruit_blueberryPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="23" />
@@ -7715,7 +7715,7 @@
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
-    <item id="811" name="teaplantSeed">
+    <item id="811" name="Teaplant Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
@@ -7734,7 +7734,7 @@
         </property>
     </item>
     <!-- Item Empty Teabag -->
-    <item id="812" name="emptyTeabag">
+    <item id="812" name="Empty Teabag">
         <property name="Meshfile" value="Items/Misc/parcel" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="14" />
@@ -7752,7 +7752,7 @@
     </item>
 
     <!-- Item orangeTreeSeed -->
-    <item id="820" name="orangeTreeSeed">
+    <item id="820" name="Orange Tree Seed">
         <property name="Meshfile" value="Items/Food/seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
@@ -7772,7 +7772,7 @@
     </item>
 
     <!-- Item orange -->
-    <item id="821" name="orange">
+    <item id="821" name="Orange">
         <property name="Meshfile" value="Items/Food/fruit_blueberryPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="23" />
@@ -7860,22 +7860,6 @@
             <property name="Zoom" value="23" />
             <property name="Pos" value="0.18,-0.15" />
             <property name="Rot" value="0,-45,0" />
-        </property>
-        <property name="CustomIcon" value="storageAmmo"/>
-        <property name="CustomIconTint" value="17a000"/>
-    </item>
-
-    <!-- Item smallGrindstone -->
-    <item id="840" name="Small Grindstone">
-        <property name="Meshfile" value="Items/Misc/parcel" />
-        <property name="Stacknumber" value="1" />
-        <property name="RepairTime" value="0.5" />
-        <property name="RepairAmount" value="10" />
-        <property name="Group" value="Resources" />
-        <property class="Preview">
-            <property name="Zoom" value="28" />
-            <property name="Pos" value="0,-0.05" />
-            <property name="Rot" value="90,45,0" />
         </property>
         <property name="CustomIcon" value="storageAmmo"/>
         <property name="CustomIconTint" value="17a000"/>

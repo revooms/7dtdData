@@ -10142,7 +10142,7 @@
     <drop event="Destroy" name="coal" count="1" prob="1" />
   </block>
   <!-- Block teaplant -->
-  <block id="1410" name="teaplant">
+  <block id="1410" name="Teaplant">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="plants" />
     <property name="Shape" value="BillboardPlant" />
@@ -10156,7 +10156,7 @@
     <drop event="Harvest" name="tealeaves" count="4" />
   </block>
   <!-- Block teaplantSprout -->
-  <block id="1411" name="teaplantSprout">
+  <block id="1411" name="Teaplant Sprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
     <property name="Shape" value="BillboardPlant" />
@@ -10168,7 +10168,7 @@
     <property name="CustomIconTint" value="456789" />
     <drop event="Destroy" count="0" />
     <property class="PlantGrowing">
-      <property name="Next" value="teaplant" />
+      <property name="Next" value="Teaplant" />
       <property name="GrowthRate" value="120" />
       <property name="FertileLevel" value="3" />
       <property name="IsRandom" value="false" />
