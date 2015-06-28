@@ -1,5 +1,5 @@
-<!-- Item teaplantseed -->
-<item id="811" name="teaplantSeed">
+<!-- Item Teaplant Seed -->
+<item id="811" name="Teaplant Seed">
     <property name="Meshfile" value="Items/Food/seed_blueberry" />
     <property name="Material" value="organic" />
     <property name="HoldType" value="21" />

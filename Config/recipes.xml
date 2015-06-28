@@ -1841,7 +1841,7 @@
     <ingredient name="Orange" count="1"/>
     <ingredient name="bottledWater" count="1"/>
   </recipe>
-  <!-- Recipe teaplantSeed -->
+  <!-- Recipe Teaplant Seed -->
   <recipe name="Teaplant Seed" count="2" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="Tealeaves" count="1" grid="0, 0"/>
   </recipe>
@@ -1850,41 +1850,45 @@
     <ingredient name="cloth" count="1"/>
     <ingredient name="bottledWater" count="1"/>
   </recipe>
-  <!-- Recipe orangeTreeSeed -->
-  <recipe name="Orange Tree Seed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+  <!-- Recipe Orangetree Seed -->
+  <recipe name="Orangetree Seed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="Orange" count="1" grid="0, 0"/>
   </recipe>
-  <!-- Recipe ammoBox9mm -->
-  <recipe name="ammoBox9mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+  <!-- Recipe 9mm Bullets Box -->
+  <recipe name="9mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="9mmBullet" count="64" grid="0, 0"/>
+    <ingredient name="paper" count="1" grid="0, 1"/>
   </recipe>
   <!-- Recipe 9mmBullet -->
   <recipe name="9mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ammoBox9mm" count="1" grid="0, 0"/>
+    <ingredient name="9mm Bullets Box" count="1" grid="0, 0"/>
   </recipe>
-  <!-- Recipe ammoBox44Mag -->
-  <recipe name="ammoBox44Mag" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+  <!-- Recipe 44 Magnum Bullets Box -->
+  <recipe name="44 Magnum Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="44MagBullet" count="64" grid="0, 0"/>
+    <ingredient name="paper" count="1" grid="0, 1"/>
   </recipe>
   <!-- Recipe 44MagBullet -->
   <recipe name="44MagBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ammoBox44Mag" count="1" grid="0, 0"/>
+    <ingredient name="44 Magnum Bullets Box" count="1" grid="0, 0"/>
   </recipe>
-  <!-- Recipe ammoBox10mm -->
-  <recipe name="ammoBox10mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+  <!-- Recipe 10mm Bullets Box -->
+  <recipe name="10mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="10mmBullet" count="64" grid="0, 0"/>
+    <ingredient name="paper" count="1" grid="0, 1"/>
   </recipe>
   <!-- Recipe 10mmBullet -->
   <recipe name="10mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ammoBox10mm" count="1" grid="0, 0"/>
+    <ingredient name="10mm Bullets Box" count="1" grid="0, 0"/>
   </recipe>
-  <!-- Recipe ammoBox762mm -->
-  <recipe name="ammoBox762mm" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+  <!-- Recipe 762mm Bullets Box -->
+  <recipe name="762mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
     <ingredient name="762mmBullet" count="64" grid="0, 0"/>
+    <ingredient name="paper" count="1" grid="0, 1"/>
   </recipe>
   <!-- Recipe 762mmBullet -->
   <recipe name="762mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ammoBox762mm" count="1" grid="0, 0"/>
+    <ingredient name="762mm Bullets Box" count="1" grid="0, 0"/>
   </recipe>
   <!-- Recipe munitionsBox -->
   <recipe name="munitionsBox" count="1" scrapable="False" craft_time="120" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1906,225 +1910,9 @@
     <ingredient name="blueberry" count="2"/>
     <ingredient name="Earl Grey Tea" count="1"/>
   </recipe>
-  <!-- Recipe halfBlockConcrete -->
-  <recipe name="halfBlockConcrete" count="4" scrapable="False" craft_time="20" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="concrete" count="1" grid="0, 0"/>
-    <ingredient name="concrete" count="1" grid="-1, 0"/>
-    <ingredient name="concrete" count="1" grid="0, -1"/>
-    <ingredient name="concrete" count="1" grid="1, 0"/>
-    <ingredient name="concrete" count="1" grid="0, 1"/>
-    <ingredient name="concrete" count="1" grid="1, 1"/>
-    <ingredient name="concrete" count="1" grid="-1, 1"/>
-    <ingredient name="concrete" count="1" grid="-1, -1"/>
-    <ingredient name="concrete" count="1" grid="1, -1"/>
-  </recipe>
-  <!-- Expanded Player Storage: http://pastebin.com/gG09JyD1 -->
-  <recipe name="Munitions Box" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 1"/>
-    <ingredient name="forgedIron" count="1" grid="1, 1"/>
-  </recipe>
-  <recipe name="Munitions Box" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="Munitions Box Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Cardboard Storage" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="paper" count="1" grid="-2, -2"/>
-    <ingredient name="paper" count="1" grid="-2, -1"/>
-    <ingredient name="paper" count="1" grid="-2, 0"/>
-    <ingredient name="paper" count="1" grid="-2, 1"/>
-    <ingredient name="paper" count="1" grid="-2, 2"/>
-    <ingredient name="paper" count="1" grid="-1, -2"/>
-    <ingredient name="paper" count="1" grid="-1, 2"/>
-    <ingredient name="paper" count="1" grid="0, -2"/>
-    <ingredient name="paper" count="1" grid="0, 2"/>
-    <ingredient name="paper" count="1" grid="1, -2"/>
-    <ingredient name="paper" count="1" grid="1, 2"/>
-    <ingredient name="paper" count="1" grid="2, -2"/>
-    <ingredient name="paper" count="1" grid="2, 2"/>
-    <ingredient name="paper" count="1" grid="2, -1"/>
-    <ingredient name="paper" count="1" grid="2, 0"/>
-    <ingredient name="paper" count="1" grid="2, 1"/>
-  </recipe>
-  <recipe name="Cardboard Storage" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="paper" count="1" grid="1, 0"/>
-    <ingredient name="Cardboard Storage Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="File Cabinet Storage" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="-2, -2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -2"/>
-    <ingredient name="forgedIron" count="1" grid="-2, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 2"/>
-  </recipe>
-  <recipe name="File Cabinet Storage" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="File Cabinet Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Storage Locker" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="0, -1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    <ingredient name="forgedIron" count="1" grid="0, 1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-2, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 2"/>
-  </recipe>
-  <recipe name="Storage Locker" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="Storage Locker Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Refrigerator" count="1" scrapable="False" craft_time="30" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="-2, -2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -2"/>
-    <ingredient name="forgedIron" count="1" grid="0, -2"/>
-    <ingredient name="forgedIron" count="1" grid="0, -1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    <ingredient name="forgedIron" count="1" grid="0, 1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-2, -1"/>
-    <ingredient name="shortMetalPipe" count="1" grid="-1, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 0"/>
-    <ingredient name="shortMetalPipe" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 1"/>
-    <ingredient name="cookingGrill" count="1" grid="-1, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 2"/>
-  </recipe>
-  <recipe name="Refrigerator" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="Refrigerator Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Fridge Bottom" count="1" scrapable="False" craft_time="30" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="0, -1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    <ingredient name="forgedIron" count="1" grid="0, 1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-2, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 0"/>
-    <ingredient name="shortMetalPipe" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 1"/>
-    <ingredient name="cookingGrill" count="1" grid="-1, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 2"/>
-  </recipe>
-  <recipe name="Fridge Bottom" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="Fridge Bottom Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Fridge Top" count="1" scrapable="False" craft_time="30" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="-2, -2"/>
-    <ingredient name="forgedIron" count="1" grid="-1, -2"/>
-    <ingredient name="forgedIron" count="1" grid="0, -2"/>
-    <ingredient name="forgedIron" count="1" grid="0, -1"/>
-    <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    <ingredient name="forgedIron" count="1" grid="0, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, -1"/>
-    <ingredient name="shortMetalPipe" count="1" grid="-1, -1"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 0"/>
-    <ingredient name="cookingGrill" count="1" grid="-1, 0"/>
-    <ingredient name="forgedIron" count="1" grid="-2, 1"/>
-    <ingredient name="forgedIron" count="1" grid="-1, 1"/>
-  </recipe>
-  <recipe name="Fridge Top" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="forgedIron" count="1" grid="1, 0"/>
-    <ingredient name="Fridge Top Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Bookcase" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20">
-    <ingredient name="woodPlank" count="1" grid="1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, -1" />
-    <ingredient name="woodPlank" count="1" grid="-1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, -1" />
-    <ingredient name="book" count="1" grid="0, 0" />
-    <ingredient name="woodPlank" count="1" grid="0, -1" />
-    <ingredient name="woodPlank" count="1" grid="0, 1" />
-  </recipe>
-  <recipe name="Bookcase" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="woodPlank" count="1" grid="1, 0"/>
-    <ingredient name="Bookcase Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Medicine Cabinet" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20">
-    <ingredient name="woodPlank" count="1" grid="1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, -1" />
-    <ingredient name="woodPlank" count="1" grid="-1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, -1" />
-    <ingredient name="glass" count="1" grid="0, 0" />
-    <ingredient name="woodPlank" count="1" grid="0, -1" />
-    <ingredient name="woodPlank" count="1" grid="0, 1" />
-  </recipe>
-  <recipe name="Medicine Cabinet" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="glass" count="1" grid="1, 0"/>
-    <ingredient name="Medicine Cabinet Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Pill Case" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20">
-    <ingredient name="woodPlank" count="1" grid="1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, -1" />
-    <ingredient name="woodPlank" count="1" grid="-1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, -1" />
-    <ingredient name="painkillers" count="1" grid="0, 0" />
-    <ingredient name="woodPlank" count="1" grid="0, -1" />
-    <ingredient name="woodPlank" count="1" grid="0, 1" />
-  </recipe>
-  <recipe name="Pill Case" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="woodPlank" count="1" grid="1, 0"/>
-    <ingredient name="Pill Case Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Drink Cooler" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20">
-    <ingredient name="woodPlank" count="1" grid="1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, -1" />
-    <ingredient name="woodPlank" count="1" grid="-1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, -1" />
-    <ingredient name="bottledWater" count="1" grid="0, 0" />
-    <ingredient name="woodPlank" count="1" grid="0, -1" />
-    <ingredient name="woodPlank" count="1" grid="0, 1" />
-  </recipe>
-  <recipe name="Drink Cooler" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="woodPlank" count="1" grid="1, 0"/>
-    <ingredient name="Drink Cooler Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Small Cooler" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20">
-    <ingredient name="woodPlank" count="1" grid="1, 1" />
-    <ingredient name="woodPlank" count="1" grid="-1, 1" />
-    <ingredient name="woodPlank" count="1" grid="1, 0" />
-    <ingredient name="woodPlank" count="1" grid="-1, 0" />
-    <ingredient name="bottledWater" count="1" grid="0, 0" />
-    <ingredient name="woodPlank" count="1" grid="0, 1" />
-  </recipe>
-  <recipe name="Small Cooler" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="woodPlank" count="1" grid="1, 0"/>
-    <ingredient name="Small Cooler Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <recipe name="Wall Safe" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ingotIron" count="1" grid="0, 0"/>
-    <ingredient name="ingotIron" count="1" grid="1, 0"/>
-    <ingredient name="ingotIron" count="1" grid="0, 1"/>
-    <ingredient name="ingotIron" count="1" grid="1, 1"/>
-  </recipe>
-  <recipe name="Wall Safe" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="ingotIron" count="1" grid="1, 0"/>
-    <ingredient name="Wall Safe Damaged" count="1" grid="0, 0"/>
-  </recipe>
-  <!-- Expanded Player Storage End -->
+  <!-- Recipe Canned Venison Stew -->
+  <recipe name="Canned Venison Stew" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20">
+      <ingredient name="venisonStew" count="1" grid="0, -1" />
+      <ingredient name="canEmpty" count="1" grid="0, 0" />
+    </recipe>
 </recipes>

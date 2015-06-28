@@ -1,5 +1,5 @@
 <!-- Item Empty Teabag -->
-<item id="812" name="emptyTeabag">
+<item id="812" name="Empty Teabag">
     <property name="Meshfile" value="Items/Misc/parcel" />
     <property name="Material" value="cloth" />
     <property name="HoldType" value="14" />

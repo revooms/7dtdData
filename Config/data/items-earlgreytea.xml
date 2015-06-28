@@ -1,5 +1,5 @@
 <!-- Item Earl Grey Tea -->
-<item id="800" name="earlGreyTea">
+<item id="800" name="Earl Grey Tea">
     <property name="Meshfile" value="Items/Food/coffeePrefab" />
     <property name="Material" value="organic" />
     <property name="HoldType" value="3" />

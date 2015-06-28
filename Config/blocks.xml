@@ -10141,7 +10141,7 @@
     <property name="IsTerrainDecoration" value="true" />
     <drop event="Destroy" name="coal" count="1" prob="1" />
   </block>
-  <!-- Block teaplant -->
+  <!-- Block Teaplant -->
   <block id="1410" name="Teaplant">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="plants" />
@@ -10152,10 +10152,10 @@
     <property name="IsTerrainDecoration" value="true" />
     <property name="CustomIcon" value="yuccaFibers" />
     <property name="CustomIconTint" value="456789" />
-    <drop event="Destroy" name="tealeaves" count="3" prob="0.8" />
-    <drop event="Harvest" name="tealeaves" count="4" />
+    <drop event="Destroy" name="Tealeaves" count="3" prob="0.8" />
+    <drop event="Harvest" name="Tealeaves" count="4" />
   </block>
-  <!-- Block teaplantSprout -->
+  <!-- Block Teaplant Sprout -->
   <block id="1411" name="Teaplant Sprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -10174,8 +10174,8 @@
       <property name="IsRandom" value="false" />
     </property>
   </block>
-  <!-- Block plantedOrangeTree1m -->
-  <block id="1420" name="plantedOrangeTree1m">
+  <!-- Block plantedOrangetree1m -->
+  <block id="1420" name="plantedOrangetree1m">
     <property name="Class" value="ModelTree" />
     <property name="CustomIcon" value="Maple6m" />
     <property name="CustomIconTint" value="ffff00" />
@@ -10190,15 +10190,15 @@
     <property name="IsPlant" value="true" />
     <property name="ParticleOnDeath" value="treeGib_burnt" />
     <property class="PlantGrowing">
-      <property name="Next" value="plantedOrangeTree6m" />
+      <property name="Next" value="plantedOrangetree6m" />
       <property name="GrowthRate" value="60" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
     <drop event="Destroy" name="pineSeed" count="1" prob="1" />
   </block>
-  <!-- Block plantedOrangeTree1m -->
-  <block id="1421" name="plantedOrangeTree6m">
+  <!-- Block plantedOrangetree1m -->
+  <block id="1421" name="plantedOrangetree6m">
     <property name="Class" value="ModelTree" />
     <property name="CustomIcon" value="Maple14m" />
     <property name="CustomIconTint" value="ffff00" />
@@ -10213,17 +10213,17 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
     <property name="ModelOffset" value="0,-1.2,0" />
     <property class="PlantGrowing">
-      <property name="Next" value="orangeTree" />
+      <property name="Next" value="Orangetree" />
       <property name="GrowthRate" value="60" />
       <property name="FertileLevel" value="1" />
       <property name="IsRandom" value="false" />
     </property>
     <drop event="Destroy" name="trunkPine" count="2" prob="1" />
-    <drop event="Destroy" name="orangeTreeSeed" count="1,2" prob="1" />
-    <drop event="Destroy" name="orange" count="1" prob=".6" />
+    <drop event="Destroy" name="Orangetree Seed" count="1,2" prob="1" />
+    <drop event="Destroy" name="Orange" count="1" prob=".6" />
   </block>
-  <!-- Block orangeTree15m -->
-  <block id="1422" name="orangeTree">
+  <!-- Block Orangetree15m -->
+  <block id="1422" name="Orangetree">
     <property name="Class" value="ModelTree" />
     <property name="CustomIcon" value="Maple17m" />
     <property name="CustomIconTint" value="ffff00" />
@@ -10238,321 +10238,7 @@
     <property name="ParticleOnDeath" value="treeGib_burnt" />
     <property name="ModelOffset" value="0,-1.2,0" />
     <drop event="Destroy" name="trunkPine" count="6" prob="1" />
-    <drop event="Destroy" name="orangeTreeSeed" count="1,2" prob=".8" />
-    <drop event="Destroy" name="orange" count="4" prob=".9" />
+    <drop event="Destroy" name="Orangetree Seed" count="1,2" prob=".8" />
+    <drop event="Destroy" name="Orange" count="4" prob=".9" />
   </block>
-  <!-- Expanded Player Storage: http://pastebin.com/mU17L0Er -->
-  <block id="1450" name="Munitions Box Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="munitionsBox" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
-    <property name="Place" value="TowardsPlacer" />
-    <property name="LootList" value="102" />
-    <property name="Group" value="Furniture/Decor" />
-    <drop event="Destroy" name="Munitions Box Damaged" count="1" />
-  </block>
-  <block id="1451" name="Munitions Box">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="munitionsBox" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
-    <property name="Place" value="TowardsPlacer" />
-    <property name="LootList" value="102" />
-    <property name="LPHardnessScale" value="8" />
-    <property name="Group" value="Furniture/Decor" />
-    <property name="DowngradeBlock" value="Munitions Box Damaged" />
-    <drop event="Destroy" count="0" />
-  </block>
-  <block id="1452" name="Storage Locker Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="lockers" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="Entities/LootContainers/lockersPrefab" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Weight" value="120" />
-    <property name="LootList" value="108" />
-    <property name="Group" value="Furniture/Decor" />
-    <drop event="Destroy" name="Storage Locker Damaged" count="1" />
-  </block>
-  <block id="1453" name="Storage Locker">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="lockers" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="Entities/LootContainers/lockersPrefab" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Weight" value="120" />
-    <property name="LootList" value="108" />
-    <property name="Group" value="Furniture/Decor" />
-    <property name="LPHardnessScale" value="8" />
-    <property name="DowngradeBlock" value="Storage Locker Damaged" />
-    <drop event="Destroy" count="0" />
-  </block>
-  <block id="1454" name="File Cabinet Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="fileCabinet" />
-    <property name="Material" value="metal" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="282" />
-    <property name="Weight" value="72" />
-    <property name="LootList" value="104" />
-    <property name="Model" value="Entities/LootContainers/file_cabinetPrefab" />
-    <drop event="Destroy" name="File Cabinet Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1455" name="File Cabinet Storage">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="fileCabinet" />
-    <property name="Material" value="metal" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="282" />
-    <property name="Weight" value="72" />
-    <property name="LPHardnessScale" value="8" />
-    <property name="LootList" value="104" />
-    <property name="Model" value="Entities/LootContainers/file_cabinetPrefab" />
-    <property name="DowngradeBlock" value="File Cabinet Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1456" name="Cardboard Storage Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="cardboardBox" />
-    <property name="Material" value="cardboard" />
-    <property name="Texture" value="276,270,270,270,270,270" />
-    <property name="LootList" value="103" />
-    <property name="Group" value="Furniture/Decor" />
-    <drop event="Destroy" name="Cardboard Storage Damaged" count="1"/>
-  </block>
-  <block id="1457" name="Cardboard Storage">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="cardboardBox" />
-    <property name="Material" value="cardboard" />
-    <property name="Texture" value="276,270,270,270,270,270" />
-    <property name="LootList" value="103" />
-    <property name="Group" value="Furniture/Decor" />
-    <property name="DowngradeBlock" value="Cardboard Storage Damaged" />
-    <drop event="Destroy" count="0" />
-  </block>
-  <block id="1458" name="Refrigerator Damaged">
-    <property name="CustomIcon" value="fridge" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="282" />
-    <property name="Weight" value="72" />
-    <property name="LootList" value="107" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Model" value="Entities/LootContainers/fridgePrefab" />
-    <drop event="Destroy" name="Refrigerator Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1459" name="Refrigerator">
-    <property name="CustomIcon" value="fridge" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="ModelEntity" />
-    <property name="Texture" value="282" />
-    <property name="Weight" value="72" />
-    <property name="LootList" value="107" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Model" value="Entities/LootContainers/fridgePrefab" />
-    <property name="DowngradeBlock" value="Refrigerator Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1460" name="Fridge Bottom Damaged">
-    <property name="CustomIcon" value="fridgeBottom" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Texture" value="267,267,266,267,266,267" />
-    <property name="Weight" value="18" />
-    <property name="LootList" value="106" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <drop event="Destroy" name="Fridge Bottom Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1461" name="Fridge Bottom">
-    <property name="CustomIcon" value="fridgeBottom" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Texture" value="267,267,266,267,266,267" />
-    <property name="Weight" value="18" />
-    <property name="LootList" value="106" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="DowngradeBlock" value="Fridge Bottom Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1462" name="Fridge Top Damaged">
-    <property name="CustomIcon" value="fridgeTop" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Texture" value="267,267,265,267,265,267" />
-    <property name="LootList" value="106" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <drop event="Destroy" name="Fridge Top Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1463" name="Fridge Top">
-    <property name="CustomIcon" value="fridgeTop" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Texture" value="267,267,265,267,265,267" />
-    <property name="LootList" value="106" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="DowngradeBlock" value="Fridge Top Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1464" name="Pill Case Damaged">
-    <property name="CustomIcon" value="pillCase" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Half" />
-    <property name="Texture" value="25,25,55,55,55,55" />
-    <property name="Place" value="TowardsPlacer90" />
-    <property name="LootList" value="101" />
-    <drop event="Destroy" name="Pill Case Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1465" name="Pill Case">
-    <property name="CustomIcon" value="pillCase" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Half" />
-    <property name="Texture" value="25,25,55,55,55,55" />
-    <property name="Place" value="TowardsPlacer90" />
-    <property name="LootList" value="101" />
-    <property name="DowngradeBlock" value="Pill Case Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1466" name="Drink Cooler Damaged">
-    <property name="CustomIcon" value="pillCase" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Mesh" value="opaque2" />
-    <property name="Texture" value="191,191,190,191,191,191" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="111" />
-    <drop event="Destroy" name="Drink Cooler Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1467" name="Drink Cooler">
-    <property name="CustomIcon" value="pillCase" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="metal_weak" />
-    <property name="Mesh" value="opaque2" />
-    <property name="Texture" value="191,191,190,191,191,191" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="111" />
-    <property name="DowngradeBlock" value="Drink Cooler Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1468" name="Medicine Cabinet Damaged">
-    <property name="CustomIcon" value="medicineCabinet" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="glass" />
-    <property name="Shape" value="Plate" />
-    <property name="Texture" value="358,335,335,335,335,335" />
-    <property name="LootList" value="100" />
-    <drop event="Destroy" name="Medicine Cabinet Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1469" name="Medicine Cabinet">
-    <property name="CustomIcon" value="medicineCabinet" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="glass" />
-    <property name="Shape" value="Plate" />
-    <property name="Texture" value="358,335,335,335,335,335" />
-    <property name="LootList" value="100" />
-    <drop event="Destroy" name="0" count="1" />
-    <property name="DowngradeBlock" value="Medicine Cabinet Damaged" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1470" name="Bookcase Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="bookcase" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Half" />
-    <property name="Texture" value="67,241,241,241,241,241" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="109" />
-    <drop event="Destroy" name="Bookcase Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1471" name="Bookcase">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="bookcase" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Half" />
-    <property name="Texture" value="67,241,241,241,241,241" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="109" />
-    <drop event="Destroy" count="0" />
-    <property name="DowngradeBlock" value="Bookcase Damaged" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1472" name="Small Cooler Damaged">
-    <property name="CustomIcon" value="cooler" />
-    <property name="Class" value="Loot" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Texture" value="282" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="112" />
-    <property name="Model" value="LootContainers/cooler" param1="main_mesh" />
-    <drop event="Destroy" name="Small Cooler Damaged" count="1" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1473" name="Small Cooler">
-    <property name="CustomIcon" value="cooler" />
-    <property name="Class" value="SecureLoot" />
-    <property name="Material" value="wood_weak" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Texture" value="282" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="Model" value="LootContainers/cooler" param1="main_mesh" />
-    <property name="LootList" value="112" />
-    <property name="DowngradeBlock" value="Small Cooler Damaged" />
-    <drop event="Destroy" count="0" />
-    <property name="Group" value="Furniture/Decor" />
-  </block>
-  <block id="1474" name="Wall Safe Damaged">
-    <property name="Class" value="Loot" />
-    <property name="CustomIcon" value="wallSafe" />
-    <property name="Material" value="metal_hard" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="113" />
-    <drop event="Destroy" name="Wall Safe Damaged" count="1" prob="1" />
-  </block>
-  <block id="1475" name="Wall Safe">
-    <property name="Class" value="SecureLoot" />
-    <property name="CustomIcon" value="wallSafe" />
-    <property name="Material" value="metal_hard" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="LootContainers/safe_wall" param1="main_mesh" />
-    <property name="Place" value="TowardsPlacerInverted" />
-    <property name="LootList" value="113" />
-    <drop event="Destroy" count="0" />
-    <property name="DowngradeBlock" value="Wall Safe Damaged" />
-  </block>
-  <!-- Expanded Player Storage End -->
 </blocks>
