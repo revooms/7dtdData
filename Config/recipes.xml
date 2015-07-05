@@ -2306,4 +2306,87 @@
         <ingredient name="shortMetalPipe" count="1" grid="0, 2"/>
     </recipe>
 
+    <!-- Recipe Earl Grey Tea -->
+      <recipe name="Earl Grey Tea" count="4" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
+        <ingredient name="Empty Teabag" count="1"/>
+        <ingredient name="Tealeaves" count="2"/>
+        <ingredient name="Orange" count="1"/>
+        <ingredient name="bottledWater" count="1"/>
+      </recipe>
+      <!-- Recipe Teaplant Seed -->
+      <recipe name="Teaplant Seed" count="2" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="Tealeaves" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe Empty Teabag -->
+      <recipe name="Empty Teabag" count="8" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="120" craft_exp_gain="4" learn_exp_gain="20" >
+        <ingredient name="cloth" count="1"/>
+        <ingredient name="bottledWater" count="1"/>
+      </recipe>
+      <!-- Recipe Orangetree Seed -->
+      <recipe name="Orangetree Seed" count="3" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="Orange" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe 9mm Bullets Box -->
+      <recipe name="9mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="9mmBullet" count="64" grid="0, 0"/>
+        <ingredient name="paper" count="1" grid="0, 1"/>
+      </recipe>
+      <!-- Recipe 9mmBullet -->
+      <recipe name="9mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="9mm Bullets Box" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe 44 Magnum Bullets Box -->
+      <recipe name="44 Magnum Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="44MagBullet" count="64" grid="0, 0"/>
+        <ingredient name="paper" count="1" grid="0, 1"/>
+      </recipe>
+      <!-- Recipe 44MagBullet -->
+      <recipe name="44MagBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="44 Magnum Bullets Box" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe 10mm Bullets Box -->
+      <recipe name="10mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="10mmBullet" count="64" grid="0, 0"/>
+        <ingredient name="paper" count="1" grid="0, 1"/>
+      </recipe>
+      <!-- Recipe 10mmBullet -->
+      <recipe name="10mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="10mm Bullets Box" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe 762mm Bullets Box -->
+      <recipe name="762mm Bullets Box" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="762mmBullet" count="64" grid="0, 0"/>
+        <ingredient name="paper" count="1" grid="0, 1"/>
+      </recipe>
+      <!-- Recipe 762mmBullet -->
+      <recipe name="762mmBullet" count="64" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="762mm Bullets Box" count="1" grid="0, 0"/>
+      </recipe>
+      <!-- Recipe munitionsBox -->
+      <recipe name="munitionsBox" count="1" scrapable="False" craft_time="120" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="forgedIron" count="1" grid="-2, -1"/>
+        <ingredient name="forgedIron" count="1" grid="-1, -1"/>
+        <ingredient name="forgedIron" count="1" grid="0, -1"/>
+        <ingredient name="forgedIron" count="1" grid="1, -1"/>
+        <ingredient name="forgedIron" count="1" grid="2, -1"/>
+        <ingredient name="forgedIron" count="1" grid="-2, 0"/>
+        <ingredient name="forgedIron" count="1" grid="2, 0"/>
+        <ingredient name="forgedIron" count="1" grid="-2, 1"/>
+        <ingredient name="forgedIron" count="1" grid="-1, 1"/>
+        <ingredient name="forgedIron" count="1" grid="0, 1"/>
+        <ingredient name="forgedIron" count="1" grid="1, 1"/>
+        <ingredient name="forgedIron" count="1" grid="2, 1"/>
+      </recipe>
+
+      <!-- Recipe Blueberry Earl Grey Tea -->
+      <recipe name="Blueberry Earl Grey Tea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
+        <ingredient name="blueberry" count="2"/>
+        <ingredient name="Earl Grey Tea" count="1"/>
+      </recipe>
+
+      <!-- Recipe Canned Venison Stew -->
+      <recipe name="Canned Venison Stew" count="1" scrapable="False" craft_time="60" craft_exp_gain="2" learn_exp_gain="20">
+          <ingredient name="venisonStew" count="1" grid="0, -1" />
+          <ingredient name="canEmpty" count="1" grid="0, 0" />
+        </recipe>
 </recipes>
