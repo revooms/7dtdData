@@ -1,6 +1,0 @@
-<!-- Recipe Earl Grey Tea -->
-<recipe name="Earl Grey Tea" count="4" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="4" learn_exp_gain="20" >
-    <ingredient name="Empty Teabag" count="1"/>
-    <ingredient name="tealeaves" count="2"/>
-    <ingredient name="bottledWater" count="1"/>
-</recipe>

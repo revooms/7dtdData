@@ -1,4 +1,0 @@
-<!-- Recipe Teaplant Seed -->
-<recipe name="Teaplant Seed" count="2" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-    <ingredient name="tealeaves" count="1" grid="0, 0"/>
-</recipe>
