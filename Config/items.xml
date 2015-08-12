@@ -994,8 +994,6 @@ WEAPON ATTACHABLES
             <property name="Rays_spread" value="0.95" />
             <property name="Crosshair_min_distance" value="30" />
             <property name="Crosshair_max_distance" value="50" />
-            <property name="DamageEntity" value="15" />
-            <property name="DamageBlock" value="1" />
             <property name="Magazine_size" value="8" />
             <property name="Magazine_items" value="shotgunShell" />
             <property name="Reload_time" value="2.6" />
@@ -1026,6 +1024,10 @@ WEAPON ATTACHABLES
             <property name="Zoom" value="5" />
             <property name="Pos" value="0.1,-0.05" />
             <property name="Rot" value="0,-45,0" />
+        </property>
+		<property class="Attributes">
+            <property name="EntityDamage" value="15,15" />
+            <property name="BlockDamage" value="1,1" />
         </property>
     </item>
     <item id="45" name="mp5">
@@ -1102,6 +1104,11 @@ WEAPON ATTACHABLES
             <property name="Zoom" value="40" />
             <property name="Pos" value="0.0,0.0" />
             <property name="Rot" value="10,0,0" />
+        </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="1,15" />
+            <property name="BlockDamage" value=".5,1" />
         </property>
     </item>
     <item id="49" name="sniperRifle">
@@ -1406,7 +1413,7 @@ WEAPON ATTACHABLES
         <property name="HoldType" value="28" />
         <property name="Stacknumber" value="1" />
         <property name="Candrop" value="false" />
-        <property name="UserHidden" value="true" />
+        <property name="IsDeveloper" value="true" />
         <property class="Action0">
             <!-- AttackAction -->
             <property name="Class" value="Melee" />
@@ -1422,7 +1429,7 @@ WEAPON ATTACHABLES
     <item id="75" name="vomitZombieProjectile">
         <property name="Meshfile" value="Items/Weapons/Ranged/Vomit/vomitBulbPrefab" />
         <property name="Material" value="organic" />
-        <property name="UserHidden" value="true" />
+        <property name="IsDeveloper" value="true" />
         <property class="Action1">
             <!-- UseAction -->
             <property name="Class" value="Projectile" />
@@ -1563,7 +1570,7 @@ WEAPON ATTACHABLES
     </item>
     <!-- Food -->
     <item id="203" name="canBeef">
-        <property name="Meshfile" value="Items/Food/can_beef" />
+        <property name="Meshfile" value="Items/Food/can_plain" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="3" />
         <property class="Action1">
@@ -2647,7 +2654,7 @@ WEAPON ATTACHABLES
     <item id="261" name="rockSmall">
         <property name="Meshfile" value="Items/Crafting/rock_small" />
         <property name="Material" value="stone" />
-        <property name="HoldType" value="16" />
+        <property name="HoldType" value="40" />
         <property name="Stacknumber" value="250" />
         <property name="RepairAmount" value="200" />
         <property name="Weight" value="8" />
@@ -2740,7 +2747,7 @@ WEAPON ATTACHABLES
             <property name="Delay" value="0.8" />
             <property name="Range" value="200" />
             <property name="Magazine_size" value="1" />
-            <property name="Magazine_items" value="crossbowBolt" />
+            <property name="Magazine_items" value="crossbowBolt, ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />            
             <property name="Reload_time" value="2" />
             <property name="Bullet_icon" value="uzi" />
             <property name="Sound_start" value="Weapons/Ranged/Bows/Crossbow/crossbow_fire" />
@@ -2755,6 +2762,10 @@ WEAPON ATTACHABLES
             <property name="Zoom_max_out" value="45" />
             <property name="Zoom_max_in" value="45" />
         </property>
+		<property class="Attributes">
+            <property name="DegradationRate" value="1,1" />
+             <property name="DegradationMax" value="30,600" />
+        </property>        
         <property name="Group" value="Ammo/Weapons" />
         <property class="Preview">
             <property name="Zoom" value="28" />
@@ -2789,6 +2800,11 @@ WEAPON ATTACHABLES
             <property name="DamageBonus.metal" value="0" />
             <property name="DamageBonus.cloth" value="0" />
         </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="20,45" />
+            <property name="BlockDamage" value=".5,1" />
+        </property>          
         <property name="Group" value="Ammo/Weapons" />
     </item>
     <item id="268" name="foodHoney">
@@ -2840,8 +2856,6 @@ WEAPON ATTACHABLES
             <property name="Rays_spread" value="0.75" />
             <property name="Crosshair_min_distance" value="30" />
             <property name="Crosshair_max_distance" value="50" />
-            <property name="DamageEntity" value="15" />
-            <property name="DamageBlock" value="1" />
             <property name="Magazine_size" value="8" />
             <property name="Magazine_items" value="shotgunShell, shotgunSlug" />
             <property name="Reload_time" value="2.6" />
@@ -2872,6 +2886,10 @@ WEAPON ATTACHABLES
             <property name="Zoom" value="5" />
             <property name="Pos" value="0.1,-0.05" />
             <property name="Rot" value="0,-45,0" />
+        </property>
+		<property class="Attributes">
+            <property name="EntityDamage" value="15,15" />
+            <property name="BlockDamage" value="1,1" />
         </property>
     </item>
     <item id="270" name="woodenBow">
@@ -3238,7 +3256,8 @@ WEAPON ATTACHABLES
         <property name="PartType" value="Stock" />
         <property name="Meshfile" value="Items/Misc/sackPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-        <property name="Material" value="metal" />
+        <property name="Material" value="wood" />
+        <property name="FuelValue" value="10" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="1" />
         <property name="Degradation" value="100" param1="true" />
@@ -5605,7 +5624,7 @@ WEAPON ATTACHABLES
             <!-- UseAction -->
             <property name="Class" value="LearnRecipe" />
             <property name="Title" value="The Enforcer Magazine" />
-            <property name="Description" value="Do you feel lucky punk? Well you should because /nnow you can assemble 44 Magnums and create 44 Magnum /nrounds, which will blow a man's head clean off." />
+            <property name="Description" value="Do you feel lucky punk? Well you should because \nnow you can assemble 44 Magnums and create 44 Magnum \nrounds, which will blow a man's head clean off." />
             <property name="Recipes_to_learn" value="44MagBullet,44Magnum" />
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
@@ -5683,7 +5702,7 @@ WEAPON ATTACHABLES
         <property name="Material" value="wood" />
         <property name="HoldType" value="45" />
         <property name="Stacknumber" value="250" />
-        <property name="FuelValue" value="12" />
+        <property name="FuelValue" value="10" />
         <property name="Group" value="Resources,Basics" />
     </item>
     <item id="618" name="cobblestones">
@@ -7317,7 +7336,7 @@ WEAPON ATTACHABLES
             <property name="Class" value="LearnRecipe" />
             <property name="Title" value="Forge Ahead. Blacksmithing, Metalworks and more." />
             <property name="Description" value="Teaches you how to build your own forge." />
-            <property name="Recipes_to_learn" value="forge" />
+
             <property name="Delay" value="0" />
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
@@ -8898,7 +8917,7 @@ WEAPON ATTACHABLES
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="cloth" />
         <property name="HoldType" value="45" />
-        <property name="Weight" value="8" />
+        <property name="Weight" value="0" />
         <property name="Group" value="Resources" />
     </item>           
 
@@ -8994,9 +9013,10 @@ WEAPON ATTACHABLES
     </item>
     
     <item id="766" name="ironArrowHead">
-        <property name="Meshfile" value="Items/Crafting/ingotIron" />
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+        <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
-        <property name="HoldType" value="21" />
+        <property name="HoldType" value="45" />
         <property name="Weight" value="4" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -9029,8 +9049,6 @@ WEAPON ATTACHABLES
         <property name="Group" value="Ammo/Weapons" />
         <property class="Action1"> <!-- UseAction -->
             <property name="Class" value="Projectile" />
-            <property name="DamageEntity" value="150" />
-            <property name="DamageBlock" value="7" />
             <property name="Rays_per_shot" value="1" />
             <property name="Rays_spread" value="0.25" />
         </property>        
@@ -9038,7 +9056,12 @@ WEAPON ATTACHABLES
             <property name="Zoom" value="40" />
             <property name="Pos" value="0.0,0.0" />
             <property name="Rot" value="10,0,0" />
-        </property>     
+        </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="150,150" />
+            <property name="BlockDamage" value="7,7" />
+        </property>
     </item>       
               
     <item id="769" name="handBear">
@@ -9394,9 +9417,10 @@ WEAPON ATTACHABLES
     </item>    
     
     <item id="783" name="steelArrowHead">
-        <property name="Meshfile" value="Items/Crafting/ingotIron" />
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+        <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
         <property name="Material" value="metal" />
-        <property name="HoldType" value="21" />
+        <property name="HoldType" value="45" />
         <property name="Weight" value="8" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -9684,5 +9708,207 @@ WEAPON ATTACHABLES
             <property name="Pos" value="0,-0.2" />
             <property name="Rot" value="90,45,0" />
         </property>
-    </item>                                     
+    </item> 
+    
+    <!-- Home maintenance book -->
+    <item id="796" name="wrenchSchematic">
+        <property name="Meshfile" value="Items/Misc/Book" />
+        <property name="Material" value="paper" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="LearnRecipe" />
+            <property name="Title" value="Wrench Schematic" />
+            <property name="Description" value="Teaches you how to make a wrench." />
+            <property name="Recipes_to_learn" value="wrench" />
+            <property name="Delay" value="0" />
+            <property name="Sound_start" value="Misc/recipe_unlocked" />
+        </property>
+        <property name="FuelValue" value="20" />
+        <property name="Weight" value="20" />
+        <property name="Group" value="Special Items" />
+        <property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>    
+    
+    <item id="797" name="ironCrossbowBolt">
+        <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
+		<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand" />
+		<property name="HoldType" value="32" />
+        <property name="Material" value="wood" />
+        <property name="Stacknumber" value="250" />
+        <property name="FuelValue" value="8" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="Projectile" />
+            <property name="DamageEntity" value="50" />
+            <property name="DamageBlock" value="0.2" />
+            <property name="Buff" value="criticalBleedout" />
+            <property name="Buff_chance" value="0.5" />
+            <property name="Explosion.ParticleIndex" value="0" />
+            <!-- no expl. -->
+            <property name="Velocity" value="80" />
+            <property name="FlyTime" value=".25" />
+            <property name="LifeTime" value="17" />
+            <property name="DamageBonus.head" value="6" />
+            <property name="DamageBonus.glass" value="25" />
+            <property name="DamageBonus.wood" value="0.1" />
+            <property name="DamageBonus.earth" value="0" />
+            <property name="DamageBonus.metal" value="0" />
+            <property name="DamageBonus.cloth" value="0" />
+        </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="25,50" />
+            <property name="BlockDamage" value=".6,1.1" />
+        </property>        
+        <property name="Group" value="Ammo/Weapons" />
+    </item>  
+    
+    <item id="798" name="steelCrossbowBolt">
+        <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
+		<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand" />
+		<property name="HoldType" value="32" />
+        <property name="Material" value="wood" />
+        <property name="Stacknumber" value="250" />
+        <property name="FuelValue" value="8" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="Projectile" />
+            <property name="DamageEntity" value="50" />
+            <property name="DamageBlock" value="0.2" />
+            <property name="Buff" value="criticalBleedout" />
+            <property name="Buff_chance" value="0.5" />
+            <property name="Explosion.ParticleIndex" value="0" />
+            <!-- no expl. -->
+            <property name="Velocity" value="85" />
+            <property name="FlyTime" value=".25" />
+            <property name="LifeTime" value="17" />
+            <property name="DamageBonus.head" value="6" />
+            <property name="DamageBonus.glass" value="25" />
+            <property name="DamageBonus.wood" value="0.1" />
+            <property name="DamageBonus.earth" value="0" />
+            <property name="DamageBonus.metal" value="0" />
+            <property name="DamageBonus.cloth" value="0" />
+        </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="30,55" />
+            <property name="BlockDamage" value=".6,1.1" />
+        </property>        
+        <property name="Group" value="Ammo/Weapons" />
+    </item>
+    
+    <item id="799" name="explodingCrossbowBolt">
+        <property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped" />
+		<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand" />
+		<property name="HoldType" value="32" />
+        <property name="Material" value="wood" />
+        <property name="Stacknumber" value="250" />
+        <property name="FuelValue" value="8" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="Projectile" />
+            <property name="DamageEntity" value="50" />
+            <property name="DamageBlock" value="0.2" />
+            <property name="Buff" value="criticalBleedout" />
+            <property name="Buff_chance" value="0.5" />
+            <property name="Explosion.ParticleIndex" value="0" />
+            <!-- no expl. -->
+            <property name="Velocity" value="65" />
+            <property name="FlyTime" value=".25" />
+            <property name="LifeTime" value="17" />
+            <property name="DamageBonus.head" value="6" />
+            <property name="DamageBonus.glass" value="25" />
+            <property name="DamageBonus.wood" value="0.1" />
+            <property name="DamageBonus.earth" value="0" />
+            <property name="DamageBonus.metal" value="0" />
+            <property name="DamageBonus.cloth" value="0" />
+            <property name="Explosion.BlockDamage" value="10" />
+        <!-- damage for blocks in the center of the explosion -->
+        <property name="Explosion.EntityDamage" value="100" />
+        <!-- damage for entities in the center of the explosion -->
+        <property name="Explosion.ParticleIndex" value="1" />
+        <!-- which prefab/particle is used -->
+        <property name="Explosion.RadiusBlocks" value="4" />
+        <!-- damage radius for blocks -->
+        <property name="Explosion.RadiusEntities" value="5" />            
+        </property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+            <property name="EntityDamage" value="30,55" />
+            <property name="BlockDamage" value=".6,1.1" />
+        </property>        
+        <property name="Group" value="Ammo/Weapons" />
+    </item>   
+    
+    <item id="800" name="crossbowSchematic">
+        <property name="Meshfile" value="Items/Misc/Book" />
+        <property name="Material" value="paper" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="LearnRecipe" />
+            <property name="Title" value="Crossbow Schematic" />
+            <property name="Description" value="Teaches you how to make a crossbow." />
+            <property name="Recipes_to_learn" value="crossbow" />
+            <property name="Delay" value="0" />
+            <property name="Sound_start" value="Misc/recipe_unlocked" />
+        </property>
+        <property name="FuelValue" value="20" />
+        <property name="Weight" value="20" />
+        <property name="Group" value="Special Items" />
+        <property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>  
+    
+    <item id="801" name="explodingCrossbowBoltSchematic">
+        <property name="Meshfile" value="Items/Misc/Book" />
+        <property name="Material" value="paper" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="LearnRecipe" />
+            <property name="Title" value="Exploding Crossbow Bolt Schematic" />
+            <property name="Description" value="Teaches you how to make a crossbow bolt that explodes on impact." />
+            <property name="Recipes_to_learn" value="explodingCrossbowBolt" />
+            <property name="Delay" value="0" />
+            <property name="Sound_start" value="Misc/recipe_unlocked" />
+        </property>
+        <property name="FuelValue" value="20" />
+        <property name="Weight" value="20" />
+        <property name="Group" value="Special Items" />
+        <property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>      
+    
+    <item id="802" name="bellows">
+        <property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+        <property name="Material" value="leather" />
+        <property name="HoldType" value="45" />
+        <property name="Stacknumber" value="1" />       
+        <property name="Weight" value="8" />
+        <property name="Group" value="Resources" />
+        <property class="Preview">
+            <property name="Zoom" value="28" />
+            <property name="Pos" value="0,-0.05" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 </items>

@@ -252,8 +252,9 @@
 		<property name="ExperienceGain" value="100"/>
     </entity_class>
     
+ 
     <entity_class name="zombie01" extends="zombie04">
-        <property name="Mesh"   value="Zombies/zombie01Ragdoll" />
+        <property name="Mesh"   value="Zombies/zombie01Ragdoll" />  
         <property name="AvatarController" value="AvatarZombie01Controller" />
 		    <property name="RagdollEnabled" value="false" />		
 		    <property name="ModelType" value="Standard" />
@@ -434,7 +435,7 @@
         <property name="NightWanderSpeed"   value="0.08" />
         <property name="NightApproachSpeed" value="0.75" />
 	    <property name="CanClimbLadders"     value="true" />
-	    <property name="PhysicsBody" value="FatZombie" />
+	    <property name="PhysicsBody" value="FatZombieCop" />
 		
         <!-- AI properties -->
         <property name="AITask-1" value="BreakDoor" />
